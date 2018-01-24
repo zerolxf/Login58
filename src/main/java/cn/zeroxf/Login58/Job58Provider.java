@@ -91,16 +91,16 @@ public class Job58Provider {
 		return cookie;
 	}
 
-	public String getCookieValue(String name) {
-		if (this.cookieStore != null && this.cookieStore.getCookies() != null) {
-			for (Cookie cookie : this.cookieStore.getCookies()) {
-				if (cookie.getName().equalsIgnoreCase(name)) {
-					return cookie.getValue();
-				}
-			}
-		}
-		return null;
-	}
+//	public String getCookieValue(String name) {
+//		if (this.cookieStore != null && this.cookieStore.getCookies() != null) {
+//			for (Cookie cookie : this.cookieStore.getCookies()) {
+//				if (cookie.getName().equalsIgnoreCase(name)) {
+//					return cookie.getValue();
+//				}
+//			}
+//		}
+//		return null;
+//	}
 
 
 	protected CloseableHttpClient createHttpClient() {
